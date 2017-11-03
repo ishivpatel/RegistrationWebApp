@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+
+form{
+  padding: 200px;
+}
+
+body{
+  padding: 10px;
+  background: #99994d;
+}
+
+input[type=text] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+  background-color: #111109;
+   border: none;
+   color: white;
+   padding: 10px 32px;
+   text-decoration: none;
+   margin: 2px 2px;
+   cursor: pointer;
+}
+label{
+  color: blue;
+  font-size: 25px;
+  font-weight: bold;
+}

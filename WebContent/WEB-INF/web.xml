@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>RegistrationWebApp</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>personalInformation</display-name>
+    <servlet-name>personalInformation</servlet-name>
+    <servlet-class>com.registeration.personalInformation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>personalInformation</servlet-name>
+    <url-pattern>/personalInformation</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>contactInformation</display-name>
+    <servlet-name>contactInformation</servlet-name>
+    <servlet-class>com.registeration.contactInformation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>contactInformation</servlet-name>
+    <url-pattern>/contactInformation</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>bankInformation</display-name>
+    <servlet-name>bankInformation</servlet-name>
+    <servlet-class>com.registeration.bankInformation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bankInformation</servlet-name>
+    <url-pattern>/bankInformation</url-pattern>
+  </servlet-mapping>
+</web-app>
