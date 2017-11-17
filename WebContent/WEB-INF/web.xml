@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://java.sun.com/xml/ns/javaee" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
   <display-name>RegistrationWebApp</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
@@ -11,32 +13,32 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>personalInformation</display-name>
-    <servlet-name>personalInformation</servlet-name>
-    <servlet-class>com.registeration.personalInformation</servlet-class>
+    <display-name>PersonalInformationServlet</display-name>
+    <servlet-name>PersonalInformationServlet</servlet-name>
+    <servlet-class>com.registeration.PersonalInformationServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>personalInformation</servlet-name>
-    <url-pattern>/personalInformation</url-pattern>
+    <servlet-name>PersonalInformationServlet</servlet-name>
+    <url-pattern>/PersonalInformationServlet</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>contactInformation</display-name>
-    <servlet-name>contactInformation</servlet-name>
-    <servlet-class>com.registeration.contactInformation</servlet-class>
+    <display-name>ContactInformationServlet</display-name>
+    <servlet-name>ContactInformationServlet</servlet-name>
+    <servlet-class>com.registeration.ContactInformationServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>contactInformation</servlet-name>
-    <url-pattern>/contactInformation</url-pattern>
+    <servlet-name>ContactInformationServlet</servlet-name>
+    <url-pattern>/ContactInformationServlet</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>bankInformation</display-name>
-    <servlet-name>bankInformation</servlet-name>
-    <servlet-class>com.registeration.bankInformation</servlet-class>
+    <display-name>BankInformationServlet</display-name>
+    <servlet-name>BankInformationServlet</servlet-name>
+    <servlet-class>com.registeration.BankInformationServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>bankInformation</servlet-name>
-    <url-pattern>/bankInformation</url-pattern>
+    <servlet-name>BankInformationServlet</servlet-name>
+    <url-pattern>/BankInformationServlet</url-pattern>
   </servlet-mapping>
 </web-app>
